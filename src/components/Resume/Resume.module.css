@@ -73,3 +73,19 @@
 .button:hover {
   background-color: #0056b3;
 }
+
+/* --- Mobile Styles --- */
+@media (max-width: 768px) {
+  .resume {
+    padding: 3rem 1rem;
+  }
+  .container {
+    padding: 1.5rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+}

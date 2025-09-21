@@ -63,3 +63,17 @@
   font-size: 0.9rem;
   color: #888;
 }
+
+/* --- Mobile Styles --- */
+@media (max-width: 768px) {
+  .contact {
+    padding: 3rem 1rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .details {
+    flex-direction: column; /* Stack items vertically */
+    gap: 1.5rem;
+  }
+}

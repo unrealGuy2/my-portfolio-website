@@ -31,3 +31,13 @@
   color: #555;
   line-height: 1.6;
 }
+
+/* --- Mobile Styles --- */
+@media (max-width: 768px) {
+  .events {
+    padding: 3rem 1rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
