@@ -1,0 +1,33 @@
+.events {
+  padding: 4rem 1rem;
+  background-color: #F5F5F5;
+}
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  color: #0D0D0D;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.5rem;
+}
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #007BFF;
+  margin: 0 0 0.5rem 0;
+}
+.cardDescription {
+  color: #555;
+  line-height: 1.6;
+}

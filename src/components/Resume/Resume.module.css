@@ -1,0 +1,75 @@
+.resume {
+  padding: 4rem 1rem;
+  background-color: #ffffff;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #F5F5F5;
+  padding: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  color: #0D0D0D;
+}
+.section {
+  margin-bottom: 2.5rem;
+}
+.sectionTitle {
+  font-size: 1.75rem;
+  color: #007BFF;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+.itemTitle {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin: 0;
+}
+.itemSubtitle {
+  font-size: 1rem;
+  color: #555;
+  margin: 0.25rem 0 0 0;
+}
+.skillsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.skillTag {
+  background-color: #007BFF;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.achievementsList {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #555;
+  line-height: 1.8;
+}
+.buttonWrapper {
+  text-align: center;
+  margin-top: 2rem;
+}
+.button {
+  background-color: #007BFF;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+.button:hover {
+  background-color: #0056b3;
+}
